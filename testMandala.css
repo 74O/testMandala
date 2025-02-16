@@ -1,53 +1,52 @@
 svg {
-   color:hsl(137, 28%, 30%);
+	color:hsl(137, 28%, 30%);
 
-   width: 90vw;
-   height: 90vh;
+	width: 90vw;
+	height: 90vh;
+	margin: 0 auto;
+	display: block;
 }
 
-#mandala_fancy {
-   display: inline;
-}
 
 #weed_mandala_left {
-   display: none;
+	display: none;
 }
 
 #weed_mandala_right {
-   display: inline;
+	display: inline;
 }
 
 #heart_mandala {
-   display: none;
+	display: none;
 }
 
 
 path {
-   fill:currentColor;
-   stroke:#000000;
-   stroke-width: .1;
-   display: inline;
-   fill-opacity: .2;
-   stroke-dashoffset: 0;
+	fill:currentColor;
+	stroke:#000000;
+	stroke-width: .1;
+	display: inline;
+	fill-opacity: .2;
+	stroke-dashoffset: 0;
 }
 path:hover {
-   color: hsl(135, 77%, 23%);
-   stroke-dashoffset: 0;
+	color: hsl(135, 77%, 23%);
+	stroke-dashoffset: 0;
 }
 
 path {
-   /* Un valor grande para asegurar que cubre todo el path */
-   stroke-dasharray: 1000;
+	/* Un valor grande para asegurar que cubre todo el path */
+	stroke-dasharray: 1000;
 
-   /* Ocultar el path */
-   stroke-dashoffset: 1000;
+	/* Ocultar el path */
+	stroke-dashoffset: 1000;
 
-   /* La animación 'draw' durará x segundos */
-   animation: draw 20s linear forwards;
+	/* La animación 'draw' durará x segundos */
+	animation: draw 20s linear forwards;
 }
 @keyframes draw {
-   to {
-         /* Mostrar el path desde el inicio */
-         stroke-dashoffset: 0;
-   }
+to {
+	/* Mostrar el path desde el inicio */
+	stroke-dashoffset: 0;
+}
 }
