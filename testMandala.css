@@ -35,37 +35,41 @@ path {
 }
 
 
-#weed_mandala_left path {
+#weed_mandala_left path.wml {
 	fill-opacity: 0;
 	transition-duration: 2200ms;
 	transition-timing-function: ease;
 }
-#weed_mandala_left:hover path {
+body:has(#mandalaTitle:hover) .wml {
+	fill-opacity: .4;
+	color: red;
+}
+#weed_mandala_left:hover path.wml {
 	fill-opacity: .4;
 }
-#weed_mandala_left path:first-child{ transition-delay: 0s; }
-#weed_mandala_left path:nth-child(2){ transition-delay: 100ms; }
-#weed_mandala_left path:nth-child(3){ transition-delay: 200ms; }
-#weed_mandala_left path:nth-child(4){ transition-delay: 300ms; }
-#weed_mandala_left path:nth-child(5){ transition-delay: 400ms; }
-#weed_mandala_left path:nth-child(6){ transition-delay: 500ms; }
-#weed_mandala_left path:nth-child(7){ transition-delay: 600ms; }
-#weed_mandala_left path:nth-child(8){ transition-delay: 700ms; }
-#weed_mandala_left path:nth-child(9){ transition-delay: 800ms; }
-#weed_mandala_left path:nth-child(10){ transition-delay: 900ms; }
-#weed_mandala_left path:nth-child(11){ transition-delay: 1000ms; }
-#weed_mandala_left path:nth-child(12){ transition-delay: 1100ms; }
-#weed_mandala_left path:nth-child(13){ transition-delay: 1200ms; }
-#weed_mandala_left path:nth-child(14){ transition-delay: 1300ms; }
-#weed_mandala_left path:nth-child(15){ transition-delay: 1400ms; }
-#weed_mandala_left path:nth-child(16){ transition-delay: 1500ms; }
-#weed_mandala_left path:nth-child(17){ transition-delay: 1600ms; }
-#weed_mandala_left path:nth-child(18){ transition-delay: 1700ms; }
-#weed_mandala_left path:nth-child(19){ transition-delay: 1800ms; }
-#weed_mandala_left path:nth-child(20){ transition-delay: 1900ms; }
-#weed_mandala_left path:nth-child(21){ transition-delay: 2000ms; }
-#weed_mandala_left path:nth-child(22){ transition-delay: 2100ms; }
-#weed_mandala_left path:nth-child(23){ transition-delay: 2200ms; }
+#weed_mandala_left .wml:first-child{ transition-delay: 0s; }
+#weed_mandala_left .wml:nth-child(2){ transition-delay: 100ms; }
+#weed_mandala_left .wml:nth-child(3){ transition-delay: 200ms; }
+#weed_mandala_left .wml:nth-child(4){ transition-delay: 300ms; }
+#weed_mandala_left .wml:nth-child(5){ transition-delay: 400ms; }
+#weed_mandala_left .wml:nth-child(6){ transition-delay: 500ms; }
+#weed_mandala_left .wml:nth-child(7){ transition-delay: 600ms; }
+#weed_mandala_left .wml:nth-child(8){ transition-delay: 700ms; }
+#weed_mandala_left .wml:nth-child(9){ transition-delay: 800ms; }
+#weed_mandala_left .wml:nth-child(10){ transition-delay: 900ms; }
+#weed_mandala_left .wml:nth-child(11){ transition-delay: 1000ms; }
+#weed_mandala_left .wml:nth-child(12){ transition-delay: 1100ms; }
+#weed_mandala_left .wml:nth-child(13){ transition-delay: 1200ms; }
+#weed_mandala_left .wml:nth-child(14){ transition-delay: 1300ms; }
+#weed_mandala_left .wml:nth-child(15){ transition-delay: 1400ms; }
+#weed_mandala_left .wml:nth-child(16){ transition-delay: 1500ms; }
+#weed_mandala_left .wml:nth-child(17){ transition-delay: 1600ms; }
+#weed_mandala_left .wml:nth-child(18){ transition-delay: 1700ms; }
+#weed_mandala_left .wml:nth-child(19){ transition-delay: 1800ms; }
+#weed_mandala_left .wml:nth-child(20){ transition-delay: 1900ms; }
+#weed_mandala_left .wml:nth-child(21){ transition-delay: 2000ms; }
+#weed_mandala_left .wml:nth-child(22){ transition-delay: 2100ms; }
+#weed_mandala_left .wml:nth-child(23){ transition-delay: 2200ms; }
 
 
 /*
