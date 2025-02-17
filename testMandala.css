@@ -42,7 +42,7 @@ path {
 }
 body:has(#mandalaTitle:hover) .wml {
 	fill-opacity: .4;
-	color: red;
+	color: #b4d455;
 }
 #weed_mandala_left:hover path.wml {
 	fill-opacity: .4;
